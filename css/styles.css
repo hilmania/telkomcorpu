@@ -70,12 +70,13 @@ a:hover {
 	color:#BBB;	
 } 
 #Header {
-margin-bottom: 62px;
+margin-bottom: 65px;
 position: relative;
 width: 100%;
-height: 110px;
+height: 135px;
 line-height: 110px;
 z-index: 1;
+background:url(../images/banner.png);
 }
 .wrapper {
 margin: 0 auto;
@@ -175,6 +176,18 @@ height: 42px;
 display: inline-block;
 }
 
+.button {
+	background-color: #008CBA;
+	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 22px;
+	font-weight: bold;
+	border-radius: 12px;
+} /* Blue */
 
 .callback,
 .simple {
@@ -199,6 +212,7 @@ text-align:center;
 font-size:22px;
 font-weight:normal;
 margin-bottom:30px;
+line-height: 200%;
 }
 .styled{
   margin-bottom: 30px;
