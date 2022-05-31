@@ -4,8 +4,8 @@ Author URL: http://webthemez.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,600);
-@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,600);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700);
 body {
 	color:#FFF; 
 	font-family: 'Open Sans', sans-serif;
@@ -71,18 +71,24 @@ a:hover {
 } 
 #Header {
 margin-bottom: 65px;
-position: relative;
-width: 100%;
+/* position: relative; */
+width: 65%;
 height: 135px;
 line-height: 110px;
 z-index: 1;
-background:url(../images/banner.png);
+/* background:url(../images/banner.png); */
 background-repeat: no-repeat;
+display: inline-block;
+/* margin-left: auto;
+margin-right: auto; */
+margin: 45px 75px 45px;
+padding: 0px;
 }
 .wrapper {
 margin: 0 auto;
 position: relative;
 width: 920px;
+/* width: 100%; */
 z-index: 1;
 }
 #socialIcons {
